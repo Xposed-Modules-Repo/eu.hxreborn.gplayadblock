@@ -12,6 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Android-11%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 11+">
   <img src="https://img.shields.io/badge/libxposed-API_101%2B-ff69b4?style=for-the-badge" alt="libxposed API 101+">
+  <a href="https://t.me/PlayStoreAdblock"><img src="https://img.shields.io/badge/Updates-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Updates on Telegram"></a>
 </p>
 
 ## Screenshots
@@ -48,16 +49,27 @@
 > [!NOTE]
 > If you still see ads or an empty placeholder shelf, clear the Play Store cache, force-stop it, and relaunch. Play Store keeps serving cached ad responses until they refresh.
 
-## Verified builds
+## Compatibility
 
-Google ships each Play Store version as several parallel builds, one per device class, each with
-its own version code. Each entry below is verified against one exact code.
-
-| Play Store version | Version code | Verified |
+| Play Store release | Version code | Status |
 | --- | ---: | --- |
-| 52.2.25-31 | 85222530 | 2026-07-21 |
-| 52.3.32-31 | 85233230 | 2026-07-22 |
-| 52.4.41-34 | 85244140 | 2026-07-28 |
+| 41.9.18-XX | 841918XX | unsupported |
+| 42.9.17-XX | 842917XX | unsupported |
+| 43.9.18-XX | 843918XX | supported |
+| 44.9.20-XX | 844920XX | supported |
+| 45.9.19-XX | 845919XX | supported |
+| 46.9.20-XX | 846920XX | supported |
+| 47.0.13-XX | 847013XX | supported |
+| 48.5.23-XX | 848523XX | supported |
+| 49.9.19-XX | 849919XX | supported |
+| 49.9.21-XX | 849921XX | untested |
+| 50.1.33-XX | 850133XX | supported |
+| 50.7.37-XX | 850737XX | supported |
+| 51.0.19-XX | 851019XX | supported |
+| 51.9.18-XX | 851918XX | supported |
+| 52.2.25-XX | 852225XX | supported |
+| 52.3.32-XX | 852332XX | supported |
+| 52.4.41-XX | 852441XX | supported |
 
 Find your build either in Play Store → Settings → About or with:
 
