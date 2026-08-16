@@ -60,6 +60,7 @@
 | 45.9.19-XX | 845919XX | supported |
 | 46.9.20-XX | 846920XX | supported |
 | 47.0.13-XX | 847013XX | supported |
+| 47.6.28-XX | 847628XX | supported |
 | 48.5.23-XX | 848523XX | supported |
 | 49.9.19-XX | 849919XX | supported |
 | 49.9.21-XX | 849921XX | untested |
@@ -72,6 +73,7 @@
 | 52.4.41-XX | 852441XX | supported |
 | 52.5.22-XX | 852522XX | supported |
 | 52.6.26-XX | 852626XX | supported |
+| 52.7.34-XX | 852734XX | supported |
 
 Find your build either in Play Store → Settings → About or with:
 
