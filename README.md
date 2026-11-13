@@ -42,12 +42,37 @@
 
 ## Install
 
-1. Install APK from [Releases](https://github.com/hxreborn/playstore-adblock/releases)
+1. Download one APK from [Releases](https://github.com/hxreborn/playstore-adblock/releases):
+   - **Core**: ad blocking only, with no app icon or settings. This is the module earlier releases shipped
+   - **Full**: the same ad blocking plus optional filters and a settings app
 2. Enable the module in your Xposed manager, scoped to Google Play Store (`com.android.vending`)
 3. Force-stop the Play Store so it restarts with the module active
 
+Core and Full install over each other, and your Full settings come back when you switch back to Full.
+If you use Full, check that your Xposed manager's update picks the Full APK. Some managers install the
+first APK in a release, which is Core.
+
 > [!NOTE]
 > If you still see ads or an empty placeholder shelf, clear the Play Store cache, force-stop it, and relaunch. Play Store keeps serving cached ad responses until they refresh.
+
+## Optional filters (Full)
+
+Turn on the ones you want in the settings app. Ad blocking works without them:
+
+- **Content**: editorial promotion cards, the pre-registration games shelf, promoted search shelves
+- **Account menu**: notification badge, Help & feedback, Personalization, Play Points reminder,
+  Notifications & offers, Payments & subscriptions, experimental features, Library, Play Pass
+- **Manage apps & device**: Play Protect, device sync, Ratings & reviews, Contributions
+- **Navigation**: the Games, Apps, Books and You tabs, a minimal Search home, the tab Play Store opens on
+- **Play Store updates**: block Play Store self-updates. Other apps still update
+
+Open the settings from the app drawer or from the module in your Xposed manager. Changes take effect
+after **Apply and restart Play Store**. You can hide the launcher icon in **Appearance and icon**.
+
+Google changes these Play Store screens often. A filter that can't find its target on your Play Store
+version does nothing, and that screen looks as it does without the module. If Play Store crashes three
+times in two minutes, the module turns the optional filters off and shows a message. Ad blocking keeps
+working, and the next **Apply and restart Play Store** turns them back on.
 
 ## Compatibility
 
